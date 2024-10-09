@@ -1,8 +1,8 @@
-#include <stdio.h>
-int main() {
-    printf("Hello World\n");
-    int x=9;
-    int y=19;
-    printf("%d",x+y);
-    return 0;
-}
+def main():
+    print("Hello World")
+    x = 9
+    y = 19
+    print(x + y)
+
+if __name__ == "__main__":
+    main()
